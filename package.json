@@ -1,11 +1,22 @@
 {
 
-  "scripts":{
-   
+  "scripts": {
+
     "dev": "npx tailwindcss -i profile.css -o ./src/outputStyle.css --watch"
+
   },
+
   "devDependencies": {
+
     "tailwindcss": "^3.0.16"
+
+  },
+
+  "dependencies": {
+
+    "@tailwindcss/typography": "^0.5.0"
+
   }
-  
+
 }
+
