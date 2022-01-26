@@ -1,5 +1,11 @@
 {
+
+  "scripts":{
+   
+    "dev": "npx tailwindcss -i profile.css -o ./src/outputStyle.css --watch"
+  },
   "devDependencies": {
     "tailwindcss": "^3.0.16"
   }
+  
 }
