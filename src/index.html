@@ -12,20 +12,38 @@
     <meta charset="utf-8" />
     <link rel="stylesheet" href="outputStyle.css" />
     <link rel="script" href="profile.js">
+    <script defer src="https://unpkg.com/alpinejs@3.8.1/dist/cdn.min.js"></script>
 </head>
 
 <body class="text-white bg-black pb-12">
     <header class="p-6">
-        <div class="container flex justify-between items-center mx-auto w-full border-b-8 border-cyan-500">
-            <div class="text-6xl">Ferdinand Detres Jr</div>
 
-            <button>
+        <!-- NAVBAR -->
+        <nav class="container flex justify-between items-center mx-auto w-full border-b-8 border-cyan-500">
+            <!-- Left Logo -->
+            <div class="text-6xl">Ferdinand Detres Jr</div>
+            <!-- End Left Logo -->
+
+            <!-- Sandbar button -->
+            <button class="md:hidden">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-white" fill="none" viewBox="0 0 24 24"
                     stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
                 </svg>
             </button>
-            <ul class="fixed left-0 right-0 min-h-screen bg-black-500 space-y-4 p-4 transform translate-x-full">
+            <!-- Sandbar end -->
+
+            <!-- Nav Menu -->
+            <ul class="fixed left-0
+                        right-0
+                        min-h-screen s
+                         bg-black 
+                        space-y-4
+                        p-4 
+                        transform 
+                        translate-x-full
+                        md:relative md:flex md:min-h-0 md:space-y-0 md:space-x-6 md:p-0 md:translate-x-0
+            ">
                 <li>
                     <a href="#" class="text-white">Home</a>
                 </li>
@@ -36,12 +54,10 @@
                     <a href="#" class="text-white">GITHUB</a>
                 </li>
             </ul>
+            <!-- End Nav Menu -->
+        </nav>
+        <!-- End Nav Bar -->
 
-
-
-
-            </nav>
-        </div>
     </header>
 
     <div class="container lg:flex justify-between items-center mx-auto w-full h-screen p-6">
