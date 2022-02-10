@@ -691,6 +691,10 @@ html {
     display: flex;
   }
 
+  .lg\:hidden {
+    display: none;
+  }
+
   .lg\:flex-wrap {
     flex-wrap: wrap;
   }
