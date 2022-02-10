@@ -2,7 +2,7 @@
 
   "scripts": {
 
-    "dev": "npx tailwindcss -i profile.css -o ./src/outputStyle.css --watch"
+    "dev": "npx tailwindcss -i profile.css -o ./docs/outputStyle.css --watch"
 
   },
 
