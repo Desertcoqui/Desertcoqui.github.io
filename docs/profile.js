@@ -1,6 +1,6 @@
 
 //navbar that shows/hides on click when hamburger menu is activated
-let a;
+let a=0;
 let navbar = document.getElementById("popOutNavbar");
 navbar.style.display="none";
 
