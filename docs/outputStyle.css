@@ -582,6 +582,14 @@ html {
   margin-bottom: calc(1rem * var(--tw-space-y-reverse));
 }
 
+.rounded {
+  border-radius: 0.25rem;
+}
+
+.rounded-full {
+  border-radius: 9999px;
+}
+
 .border-b-8 {
   border-bottom-width: 8px;
 }
