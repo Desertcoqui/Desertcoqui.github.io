@@ -10,73 +10,31 @@
   <meta http-equiv="author" content="Ferdinand Detres Jr" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta charset="utf-8" />
-  <link rel="stylesheet" href="outputStyle.css" />
+  <script src="header.js"></script>
+  <link rel="stylesheet" href="/docs/public/styles/outputStyle.css" />
+
 
 
 </head>
 
 <body class="pb-12 text-white bg-black">
-  <header class="p-6">
-    <!-- NAVBAR -->
-    <nav class="container flex items-center justify-between w-full mx-auto border-b-8 border-cyan-500">
-      <!-- Left Logo -->
-      <div class="text-6xl">Ferdinand Detres Jr</div>
-
-      <!-- Sandbar button -->
-
-      <button type="button" class="md:hidden" onclick="hamburger()">
-        <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 text-white" fill="none" viewBox="0 0 24 24"
-          stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
-        </svg>
-      </button>
-
-      <!-- Sandbar ends -->
-
-
-      <!-- Nav Menu -->
-      <ul
-        class="fixed left-0 right-0 min-h-screen p-4 space-y-4 transform translate-x-full bg-black md:relative md:flex md:min-h-0 md:space-y-0 md:space-x-6 md:p-0 md:translate-x-0">
-        <li>
-          <a href="#" class="text-white">Home</a>
-        </li>
-        <li>
-          <a href="#" class="text-white">Projects</a>
-        </li>
-        <li>
-          <a href="#" class="text-white">GITHUB</a>
-        </li>
-        <li>
-          <a href="#" class="text-white">Resume</a>
-        </li>
-      </ul>
-      <!-- End Nav Menu -->
-    </nav>
-    <!-- End Nav Bar -->
-  </header>
-
-  <div class="container items-center justify-between w-full p-4 mx-auto lg:flex">
-    <div id="popOutNavbar">
-      <nav
-        class="absolute flex flex-col items-center justify-center w-full p-8 bg-gradient-to-tr from-black-600 to-gray-500 bg-cyan-500 hover:bg-gray-600 md:flex-row md:justify-end md:relative md:h-auto display:none">
-        <ul>
-          <li><a class="text-4xl hover:bg-cyan-600 ">Home</a></li>
-          <li><a class="text-4xl hover:bg-cyan-600">Projects</a></li>
-          <li><a class="text-4xl hover:bg-cyan-600">GitHub</a></li>
-        </ul>
-      </nav>
-    </div>
-  </div>
+  <!-- Header template -->
+  <header-component></header-component>
+  <!-- End Header template -->
 
   <div class="container items-center justify-between w-full mx-auto lg:flex">
     <div class="lg:flex lg:flex-wrap">
       <h1 class="justify-center p-10 text-4xl lg:flex">"Creating simple and lean UI/UX experiences"</h1>
-      <img class="rounded-full" src="papoweb1.png" alt="Papo Detres" />
+      <img class="rounded-full" src="/docs/public/images/papoweb1.png" alt="Papo Detres" />
 
     </div>
   </div>
 
   <script src="profile.js"></script>
+
+
+
+
 </body>
 
 </html>
