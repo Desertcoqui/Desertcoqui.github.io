@@ -5,7 +5,7 @@ class Footer extends HTMLElement {
 
   connectedCallback() {
     this.innerHTML = `
-         <footer class="absolute bottom-0 w-full  ">
+         <footer class="relative bottom-0 pb-0 w-full  ">
     <div class="p-2">
       <ul class="text-center bg-cyan-500 hover:bg-gray-600 mw-5 ">
 
