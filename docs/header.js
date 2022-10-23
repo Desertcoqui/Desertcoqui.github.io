@@ -30,7 +30,7 @@ class Header extends HTMLElement {
           <a href="index.html" class="text-white">Home</a>
         </li>
         <li>
-          <a href="resume.html" class="text-white">Resume</a>
+          <a href="./web-430/detres-tech-value-stream.html" class="text-white">DevOps</a>
         </li>
         <li>
           <a href="project.html" class="text-white">Projects</a>
@@ -56,7 +56,7 @@ class Header extends HTMLElement {
           class="absolute flex flex-col items-center justify-center w-full p-8 bg-gradient-to-tr from-black-600 to-gray-500 bg-cyan-500 hover:bg-gray-600 md:flex-row md:justify-end md:relative md:h-auto display:none">
           <ul>
             <li><a href="index.html" class="text-4xl hover:bg-cyan-600 ">Home</a></li>
-            <li><a href="resume.html" class="text-4xl hover:bg-cyan-600">Resume</a></li>
+            <li><a href="./web-430/detres-tech-value-stream.html" class="text-4xl hover:bg-cyan-600">Resume</a></li>
             <li><a href="project.html" class="text-4xl hover:bg-cyan-600">Projects</a></li>
             <li><a href="database.html" class="text-4xl hover:bg-cyan-600">Databases</a></li>
             <li><a href="api.html" class="text-4xl hover:bg-cyan-600">API Unit Test</a></li>
