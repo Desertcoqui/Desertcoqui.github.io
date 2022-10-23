@@ -30,7 +30,7 @@ class Header extends HTMLElement {
           <a href="index.html" class="text-white">Home</a>
         </li>
         <li>
-          <a href="./web-430/detres-tech-value-stream.html" class="text-white">DevOps</a>
+          <a href="devOps-presentations.html" class="text-white">DevOps</a>
         </li>
         <li>
           <a href="project.html" class="text-white">Projects</a>
