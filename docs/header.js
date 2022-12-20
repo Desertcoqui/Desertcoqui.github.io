@@ -53,14 +53,14 @@ class Header extends HTMLElement {
     <div class="container items-center justify-between w-full p-4 mx-auto lg:flex">
       <div id="popOutNavbar">
         <nav
-          class="absolute flex flex-col items-center justify-center w-full p-8 bg-gradient-to-tr from-black-600 to-gray-500 bg-cyan-500 hover:bg-gray-600 md:flex-row md:justify-end md:relative md:h-auto display:none">
+          class=" shadow-lg transform perspective-1000 relative flex flex-col items-center justify-between w-full p-8 bg-gradient-to-tr from-black-600 to-gray-500 bg-cyan-700 hover:bg-gray-600 md:flex-row md:justify-end md:relative md:h-auto display:none">
           <ul>
-            <li><a href="index.html" class="text-4xl hover:bg-cyan-600 ">Home</a></li>
-            <li><a href="./web-430/detres-tech-value-stream.html" class="text-4xl hover:bg-cyan-600">Resume</a></li>
-            <li><a href="project.html" class="text-4xl hover:bg-cyan-600">Projects</a></li>
-            <li><a href="database.html" class="text-4xl hover:bg-cyan-600">Databases</a></li>
-            <li><a href="api.html" class="text-4xl hover:bg-cyan-600">API Unit Test</a></li>
-            <li><a href="bucket.html" class="text-4xl hover:bg-cyan-600">Bucket List</a></li>
+            <li><a href="index.html" class="shadow-md text-4xl hover:bg-cyan-600 ">Home</a></li>
+            <li><a href="./web-430/detres-tech-value-stream.html" class="shadow-md text-4xl hover:bg-cyan-600">Resume</a></li>
+            <li><a href="project.html" class="shadow-md text-4xl hover:bg-cyan-600">Projects</a></li>
+            <li><a href="database.html" class="shadow-md text-4xl hover:bg-cyan-600">Databases</a></li>
+            <li><a href="api.html" class="shadow-md text-4xl hover:bg-cyan-600">API Unit Test</a></li>
+            <li><a href="bucket.html" class="shadow-md text-4xl hover:bg-cyan-600">Bucket List</a></li>
 
 
           </ul>
